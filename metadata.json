@@ -1,0 +1,6 @@
+{
+  "name": "Instagram",
+  "description": "An Instagram pixel-perfect clone with Reels, Stories, Chat, Activity Logs, custom Video Player controls, and rich interactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
