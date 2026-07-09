@@ -24,6 +24,8 @@ jobs:
       uses: gradle/actions/setup-gradle@v4
 
     - name: Build with Gradle
+      env:
+        GRADLE_OPTS: "-Djava.awt.headless=true"
       run: gradle assembleDebug
 
     - name: Upload Build Artifact
